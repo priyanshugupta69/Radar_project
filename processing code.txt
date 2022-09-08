@@ -110,7 +110,7 @@ void drawText() { // draws the texts on the screen
   text("40cm",width-width*0.0729,height-height*0.0833);
   textSize(40);
   text("Indian Lifehacker ", width-width*0.875, height-height*0.0277);
-  text("Angle: " + iAngle +" °", width-width*0.48, height-height*0.0277);
+  text("Angle: " + iAngle +" Â°", width-width*0.48, height-height*0.0277);
   text("Distance: ", width-width*0.26, height-height*0.0277);
   if(iDistance<40) {
   text("        " + iDistance +" cm", width-width*0.225, height-height*0.0277);
@@ -119,22 +119,22 @@ void drawText() { // draws the texts on the screen
   fill(98,245,60);
   translate((width-width*0.4994)+width/2*cos(radians(30)),(height-height*0.0907)-width/2*sin(radians(30)));
   rotate(-radians(-60));
-  text("30°",0,0);
+  text("30Â°",0,0);
   resetMatrix();
   translate((width-width*0.503)+width/2*cos(radians(60)),(height-height*0.0888)-width/2*sin(radians(60)));
   rotate(-radians(-30));
-  text("60°",0,0);
+  text("60Â°",0,0);
   resetMatrix();
   translate((width-width*0.507)+width/2*cos(radians(90)),(height-height*0.0833)-width/2*sin(radians(90)));
   rotate(radians(0));
-  text("90°",0,0);
+  text("90Â°",0,0);
   resetMatrix();
   translate(width-width*0.513+width/2*cos(radians(120)),(height-height*0.07129)-width/2*sin(radians(120)));
   rotate(radians(-30));
-  text("120°",0,0);
+  text("120Â°",0,0);
   resetMatrix();
   translate((width-width*0.5104)+width/2*cos(radians(150)),(height-height*0.0574)-width/2*sin(radians(150)));
   rotate(radians(-60));
-  text("150°",0,0);
+  text("150Â°",0,0);
   popMatrix(); 
 }
